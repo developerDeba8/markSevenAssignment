@@ -3,14 +3,14 @@
 
 :root {
     --font-style: 'Caveat', cursive;
-    --primary-color: #0C4A6E;
-    --secondary-color: #A3E635;
+    --primary-color: black;
+    --secondary-color: white;
     --width-break: 600px;
 }
 
 body {
    font-family: var(--font-style);
-   margin: 0;
+   margin: 0px;
    color: #333333;
 
 }
@@ -34,39 +34,40 @@ main {
 main #txt-input {
     box-sizing: border-box;
     width: 100%;
-    height: 20vh;
-    margin-top: 2rem;
+    height: 25%;
+    margin: 2rem auto;
     display: block;
     padding: 1rem;
     font-family: var(--font-style);
-    font-size: larger;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 main #btn-translate {
-    margin-top: 1rem;
+    margin: 1rem 0rem;
     padding: 1rem 2rem;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     font-family: var(--font-style);
-    font-size: large;
+    font-size: 1.25rem;
     display: block;
 }
 
 main #txtAboveTranslatedBox {
     margin-top: 1rem;
-    font-size: large;
+    font-size: 1.25rem;
     display: block;
 }
 
 main #txt-output {
     box-sizing: border-box;
-    margin-top: 1rem;
+    margin: 1rem auto;
     padding: 1rem;
     border: 1px solid black;
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     display: block;
-    font-size: large;
+    font-size: 1.5rem;
 }
 
 footer {
@@ -79,11 +80,12 @@ footer {
 
 footer #about {
     color: var(--secondary-color);
-    font-size: large;
+    font-size: 1.5rem;
 }
 
 footer p {
     margin: auto;
     width: var(--width-break);
     color: var(--secondary-color);
+    font-size: 1.25rem;
 }
