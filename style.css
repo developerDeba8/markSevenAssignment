@@ -40,7 +40,6 @@ main #txt-input {
     padding: 1rem;
     font-family: var(--font-style);
     font-size: 1.5rem;
-    font-weight: bold;
 }
 
 main #btn-translate {
